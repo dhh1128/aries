@@ -67,7 +67,4 @@ and DIDComm. Now that Aries exists, Indy artifacts will be partitioned. Function
 related to Indy's blockchain will remain in Indy, whereas general functionality will be
 moved over to Aries repos through a PR process for broader community ratification.
 
-If you are using Indy SDK today to build a decentralized identity solution, keep
-doing so for the time being. Aries is not yet mature enough to build upon, but when
-it gets there, a reasonable transition process will be provided, and announcements will
-be made in community channels.
+If you are using an Aries agent framework like the ones listed above, keep doing so. If you are directly consuming libindy instead, keep doing so; the analogous C-callable interfaces in Aries are not yet ready to build upon. When the separation of libindy functionality into generic Aries and specific Indy features is complete, a reasonable transition process will be provided, and announcements will be made in community channels.
